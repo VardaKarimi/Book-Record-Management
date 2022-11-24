@@ -23,6 +23,7 @@ app.get("*", (req, res) => {
         message: "This route does not exist",
     });
 });
+
 app.listen(PORT, () => {
     console.log(`Server is running at port ${PORT}`);
 });
